@@ -4,7 +4,7 @@ $ cd devpro3_pub
 
 $ git checkout --orphan orphan_b
 
-$ git commit -am "week06 "
+$ git commit -am "Add files up to week 6"
 
 $ git branch -D main
 
