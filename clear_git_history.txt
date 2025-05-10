@@ -1,0 +1,15 @@
+$ cd 
+
+$ cd devpro3_pub
+
+$ git checkout --orphan orphan_b
+
+$ git commit -am "week06 "
+
+$ git branch -D main
+
+$ git branch -m main
+
+$ git push -f origin main
+
+$ git branch
