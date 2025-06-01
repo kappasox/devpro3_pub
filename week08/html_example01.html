@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="utf-8" />
+
+<!-- 
+Sample Implemantation of IPUT Course IoT Device Programming 3 (2022 Summer)
+Michiharu Takemoto (takemoto.development@gmail.com)
+2022/06/07
+
+HTML Example (01)
+html_example01.html
+-->
+
+<head>
+    <title>headで囲まれた中のtitleの中の文字はこれです。</title>
+
+    <meta name="author" content="Michiharu Takemoto">
+    <meta name="description" content="HTMLのありがちなサンプル。">
+    <meta name="keywords" content="HTMLタグ">
+
+    headタグで囲まれたものはこうなります。
+</head>
+
+<body>
+
+<h1>h1タグで囲まれたものはこうなります。巨大な見出しです。</h1>
+
+<h2>h2タグで囲まれたものはこうなります。大きな見出しです。</h2>
+
+<h3>h3タグで囲まれたものはこうなります。見出しです。</h3>
+
+<p>パラグラフ（paragraph; 段落）です。</p>
+
+<p>
+    2つ目のパラグラフ（paragraph; 段落）です。
+    HTMLドキュメントの中で改行があっても、ブラウザでは
+    改行されません。なぜならば、パラグラフとして扱われるからです。
+</p>
+
+<ul>
+  <li>アイテマイズ（itemize）はこう書きます。</li>
+  <li>アイテマイズ（itemize）はこうです。</li>
+  <li>さらにアイテマイズするとこうなります。
+    <ul>
+        <li>アイテマイズ（itemize）はこう書きます。</li>
+        <li>アイテマイズ（itemize）はこうです。</li>
+    </ul>
+  </li>
+</ul>
+
+改行はbrタグを使います。閉じるタグはありません。<br>
+
+<h1>他へのリンクの例</h1>
+
+<a href="html_example02.html">別のファイルへのリンク</a>
+はこう書きます。
+
+
+<h1>写真を貼る方法</h1>
+imgタグを使います。<br>
+
+例はいろいろありますが、幅(width)のみを指定した例。<br>
+<img src="html_example_pict.JPG" width="200">
+<br>
+
+例はいろいろありますが、高さ(height)のみを指定した例。<br>
+<img src="html_example_pict.JPG" width="100">
+<br>
+
+例はいろいろありますが、幅(width)と高さ(height)を指定した例です。
+縦横比がずれて、妙な画像になります。<br>
+<img src="html_example_pict.JPG" width="150" height="200">
+<br>
+
+<h1>コメントの書き方</h1>
+<!-- 
+コメントはこう書きます。 
+-->
+コメントアウトした領域は、当然、ブラウザでは何も表示されません。
+
+<h1>表の書き方</h1>
+表は、HTMLの書き方がちょっと難しいかもしれません。<br>
+
+<table border="1">
+    <tr>
+        <th>温度</th>
+        <th>湿度</th>
+    </tr>
+
+    <tr>
+        <th>28.0</th>
+        <th>42.0</th>
+    </tr>
+
+    <tr>
+        <th>32.3</th>
+        <th>44.5</th>
+    </tr>
+</table>
+
+<h1>以上</h1>
+このファイルではここまでです。
+
+
+</body>
+
+</html>
