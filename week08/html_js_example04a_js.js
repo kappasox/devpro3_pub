@@ -1,0 +1,1 @@
+document.write("Hello World(JavaScript part!!) 04A")
